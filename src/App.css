@@ -1,38 +1,150 @@
-.App {
-  text-align: center;
+
+
+/*###############################################
+componet of rated
+*/
+.titulo{
+  position: relative;
+  text-align: justify;
+  top: 80px;
+  left: 200px;
+  color: rgb(68, 17, 88) !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sub-parrafo{
+  position: relative;
+  text-align: justify;
+  color: rgb(122, 122, 122);
+  top: 80px;
+  left: 200px;
+  font-size: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rated1{
+  position: relative;
+  background-color: rgb(241, 230, 253);
+  height: 40px;
+  width: 320px;
+  border-radius: 10px;
+  left: 750px;
+  bottom: 150px;
+}img{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}h4{
+  position: relative;
+  left: 130px;
+  bottom: 15px;
+  font-weight: bold;
+  color: #5b2c6f;
+}
+.rated2{
+  position: relative;
+  background-color: rgb(241, 230, 253);
+  height: 40px;
+  width: 320px;
+  border-radius: 10px;
+  left: 800px;
+  bottom: 100px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.rated3{
+  position: relative;
+  background-color: rgb(241, 230, 253);
+  height: 40px;
+  width: 320px;
+  border-radius: 10px;
+  left: 850px;
+  bottom: 50px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+
+/*###############################################
+componet of comments
+*/
+.content{
+  background-color:  #5b2c6f ;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}.img-colton{
+  position: relative;
+  top: 29px;
+  left: 30px;
+  width: 50px;
+  border-radius: 50%;
+}.name1{
+  position: absolute;
+  left: 110px;
+  bottom: 125px;
+  color: white !important;
+  font-size: 18px !important;
+
+}
+.name2{
+  position: absolute;
+  left: 110px;
+  bottom: 120px;
+  color: white !important;
+  font-size: 18px !important;
+
 }
 
-.App-link {
-  color: #61dafb;
+.name3{
+  position: absolute;
+  left: 110px;
+  bottom: 120px;
+  color: white !important;
+  font-size: 18px !important;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.content1{
+  background-color:  #5b2c6f ;
+  position: absolute;
+  top: 420px;
+  left: 590px;
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+
 }
+.content2{
+  background-color:  #5b2c6f ;
+  position: absolute;
+  top: 440px;
+  left: 980px;
+  height: 200px;
+  width: 350px; 
+  border-radius: 10px;
+}p{
+  
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-size: smaller;
+}
+
+.sub{
+  position: relative;
+  left: 110px;
+  color:  #fc56ee !important;
+  font-size: small !important;
+
+}
+
+.parrafo{
+  position: relative;
+  left: 35px;
+  top: 10px;
+}
+
